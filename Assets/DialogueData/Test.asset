@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4a0ed8445e9044c83bedf8d3d57864, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Help! Help! Oh, sorry... I was just screaming for help before I was so rudely
+    interrupted.
+  - 'OH! I know! You can probably help me out, since you''re already here and all. '
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 59ff6fb342f733a42adfb93cd23cdf46, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: bec72b09b88c1bb4f902ce19b6639a13, type: 2}
